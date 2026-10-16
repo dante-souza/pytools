@@ -1,0 +1,90 @@
+# One-shot initial release. Fires on main when this workflow is introduced.
+# Can be rerun manually if repository permissions temporarily prevent publishing.
+name: Publish pytools v1.0.0
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/release-v1.0.0.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pytools-release-v1.0.0
+  cancel-in-progress: false
+
+jobs:
+  publish-first-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exact commit to release
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Confirm release scope and version
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "${GITHUB_REF}" = "refs/heads/main"
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import tomllib
+
+          package = tomllib.loads(Path("logger/pyproject.toml").read_text(encoding="utf-8"))
+          assert package["project"]["version"] == "1.0.0"
+          code = Path("logger/logger_general.py").read_text(encoding="utf-8")
+          assert re.search(r'^__version__\s*=\s*"1\.0\.0"\s*$', code, re.MULTILINE)
+          assert Path("docs/releases/v1.0.0.md").is_file()
+          print("pytools/logger versions match release v1.0.0")
+          PY
+
+      - name: Validate first release offline before publishing
+        run: |
+          make doctor
+          make test
+          make check
+          make logger-pretty FILE=examples/events.jsonl COLOR=never > /tmp/pytools-logger-pretty.txt
+
+      - name: Create annotated tag and GitHub Release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="v1.0.0"
+
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Release $tag already exists; leaving it untouched."
+            exit 0
+          fi
+
+          if git ls-remote --exit-code --tags origin "refs/tags/$tag" >/dev/null 2>&1; then
+            git fetch --no-tags origin "refs/tags/$tag:refs/tags/$tag"
+            tagged_commit="$(git rev-list -n 1 "$tag")"
+            if [[ "$tagged_commit" != "$GITHUB_SHA" ]]; then
+              echo "::error::Existing $tag points to $tagged_commit, not $GITHUB_SHA. Refusing to overwrite."
+              exit 1
+            fi
+          else
+            git -c user.name="github-actions[bot]" \
+                -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                tag -a "$tag" "$GITHUB_SHA" -m "pytools $tag - first stable release"
+            git push origin "refs/tags/$tag"
+          fi
+
+          gh release create "$tag" \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title "pytools v1.0.0 — first stable release" \
+            --notes-file docs/releases/v1.0.0.md \
+            --latest

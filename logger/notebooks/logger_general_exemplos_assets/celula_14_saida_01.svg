@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="630" viewBox="0 0 640 630" role="img" aria-label="Saída colorida do logger"><title>Saída da célula 14</title><rect x="0.5" y="0.5" width="639" height="629" rx="10" fill="#0f172a" stroke="#475569"/><g font-family="Consolas,Menlo,DejaVu Sans Mono,monospace" font-size="13"><text x="23" y="37" xml:space="preserve"><tspan fill="#e2e8f0">Arquivo original (um JSON por linha):</tspan></text>
+<text x="23" y="58" xml:space="preserve"><tspan fill="#e2e8f0">{&quot;event_id&quot;:&quot;1&quot;,&quot;status&quot;:&quot;success&quot;,&quot;level&quot;:&quot;INFO&quot;,&quot;ok&quot;:true}</tspan></text>
+<text x="23" y="79" xml:space="preserve"><tspan fill="#e2e8f0">{&quot;event_id&quot;:&quot;2&quot;,&quot;status&quot;:&quot;denied&quot;,&quot;level&quot;:&quot;WARNING&quot;,&quot;ok&quot;:false}</tspan></text>
+<text x="23" y="100" xml:space="preserve"><tspan fill="#e2e8f0">{&quot;event_id&quot;:&quot;3&quot;,&quot;status&quot;:&quot;failed&quot;,&quot;level&quot;:&quot;ERROR&quot;,&quot;ok&quot;:false}</tspan></text>
+<text x="23" y="121" xml:space="preserve"></text>
+<text x="23" y="142" xml:space="preserve"><tspan fill="#e2e8f0">Visualização ANSI bonita (não altera arquivo):</tspan></text>
+<text x="23" y="163" xml:space="preserve"><tspan fill="#86efac">Record 0001 — level: INFO</tspan></text>
+<text x="23" y="184" xml:space="preserve"><tspan fill="#e2e8f0">{</tspan></text>
+<text x="23" y="205" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;event_id&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;1&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="226" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;status&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">&quot;success&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="247" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;level&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">&quot;INFO&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="268" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;ok&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#d8b4fe">true</tspan></text>
+<text x="23" y="289" xml:space="preserve"><tspan fill="#e2e8f0">}</tspan></text>
+<text x="23" y="310" xml:space="preserve"><tspan fill="#facc15">Record 0002 — level: WARNING</tspan></text>
+<text x="23" y="331" xml:space="preserve"><tspan fill="#e2e8f0">{</tspan></text>
+<text x="23" y="352" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;event_id&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;2&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="373" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;status&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;denied&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="394" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;level&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;WARNING&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="415" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;ok&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#d8b4fe">false</tspan></text>
+<text x="23" y="436" xml:space="preserve"><tspan fill="#e2e8f0">}</tspan></text>
+<text x="23" y="457" xml:space="preserve"><tspan fill="#fca5a5">Record 0003 — level: ERROR</tspan></text>
+<text x="23" y="478" xml:space="preserve"><tspan fill="#e2e8f0">{</tspan></text>
+<text x="23" y="499" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;event_id&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;3&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="520" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;status&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fca5a5">&quot;failed&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="541" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;level&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fca5a5">&quot;ERROR&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="562" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;ok&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#d8b4fe">false</tspan></text>
+<text x="23" y="583" xml:space="preserve"><tspan fill="#e2e8f0">}</tspan></text>
+<text x="23" y="604" xml:space="preserve"><tspan fill="#e2e8f0">PASS: arquivo imutável durante a visualização</tspan></text></g></svg>

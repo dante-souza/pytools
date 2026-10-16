@@ -358,3 +358,7 @@ Teste e demonstração **não** precisam de chave, credencial nem chamadas pagas
 
 Consulte [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) para conhecer os contratos
 de cada classe/função e as opções de evolução.
+
+## Notebook em Markdown (GitHub)
+
+Além do [notebook Jupyter](notebooks/logger_general_exemplos.ipynb), você pode consultar a [versão Markdown com as demonstrações coloridas](notebooks/logger_general_exemplos.md). Os 12 exemplos visuais usam arquivos SVG derivados das saídas HTML/ANSI do notebook, e cada um mantém saída textual copiável.

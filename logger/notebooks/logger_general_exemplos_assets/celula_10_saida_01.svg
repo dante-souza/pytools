@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="273" viewBox="0 0 640 273" role="img" aria-label="Saída colorida do logger"><title>Saída da célula 10</title><rect x="0.5" y="0.5" width="639" height="272" rx="10" fill="#0f172a" stroke="#475569"/><g font-family="Consolas,Menlo,DejaVu Sans Mono,monospace" font-size="13"><text x="23" y="37" xml:space="preserve"><tspan fill="#e2e8f0">{</tspan></text>
+<text x="23" y="58" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;deployment&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fca5a5">&quot;rollback&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="79" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;pipeline&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;waiting&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="100" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;elapsed_ms&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#67e8f9">0.84</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="121" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;components&quot;</tspan><tspan fill="#e2e8f0">: [</tspan></text>
+<text x="23" y="142" xml:space="preserve"><tspan fill="#e2e8f0">    {</tspan></text>
+<text x="23" y="163" xml:space="preserve"><tspan fill="#e2e8f0">      </tspan><tspan fill="#93c5fd">&quot;deployment&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#86efac">&quot;deployed&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="184" xml:space="preserve"><tspan fill="#e2e8f0">      </tspan><tspan fill="#93c5fd">&quot;count&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#67e8f9">2</tspan></text>
+<text x="23" y="205" xml:space="preserve"><tspan fill="#e2e8f0">    }</tspan></text>
+<text x="23" y="226" xml:space="preserve"><tspan fill="#e2e8f0">  ]</tspan></text>
+<text x="23" y="247" xml:space="preserve"><tspan fill="#e2e8f0">}</tspan></text></g></svg>

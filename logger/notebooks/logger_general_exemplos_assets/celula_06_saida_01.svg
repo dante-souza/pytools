@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="Saída colorida do logger"><title>Saída da célula 6</title><rect x="0.5" y="0.5" width="639" height="419" rx="10" fill="#0f172a" stroke="#475569"/><g font-family="Consolas,Menlo,DejaVu Sans Mono,monospace" font-size="13"><text x="23" y="37" xml:space="preserve"><tspan fill="#e2e8f0">{</tspan></text>
+<text x="23" y="58" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;trace_id&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fde68a">&quot;demo-001&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="79" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;status&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#facc15">&quot;denied&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="100" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;message&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fde68a">&quot;Acesso negado a recurso fictício&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="121" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;attempts&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#67e8f9">2</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="142" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;duration_ms&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#67e8f9">1.508</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="163" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;retry&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#d8b4fe">false</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="184" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;value&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#94a3b8">null</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="205" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;payload&quot;</tspan><tspan fill="#e2e8f0">: {</tspan></text>
+<text x="23" y="226" xml:space="preserve"><tspan fill="#e2e8f0">    </tspan><tspan fill="#93c5fd">&quot;items&quot;</tspan><tspan fill="#e2e8f0">: [</tspan></text>
+<text x="23" y="247" xml:space="preserve"><tspan fill="#e2e8f0">      </tspan><tspan fill="#67e8f9">1</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="268" xml:space="preserve"><tspan fill="#e2e8f0">      </tspan><tspan fill="#67e8f9">2.75</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="289" xml:space="preserve"><tspan fill="#e2e8f0">      </tspan><tspan fill="#d8b4fe">true</tspan></text>
+<text x="23" y="310" xml:space="preserve"><tspan fill="#e2e8f0">    ],</tspan></text>
+<text x="23" y="331" xml:space="preserve"><tspan fill="#e2e8f0">    </tspan><tspan fill="#93c5fd">&quot;country&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fde68a">&quot;Brasil&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="352" xml:space="preserve"><tspan fill="#e2e8f0">    </tspan><tspan fill="#93c5fd">&quot;ação&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fde68a">&quot;negada&quot;</tspan></text>
+<text x="23" y="373" xml:space="preserve"><tspan fill="#e2e8f0">  }</tspan></text>
+<text x="23" y="394" xml:space="preserve"><tspan fill="#e2e8f0">}</tspan></text></g></svg>

@@ -8,12 +8,16 @@ on:
       - "Makefile"
       - ".gitignore"
       - ".github/workflows/logger.yml"
+      - ".github/workflows/release-v1.0.0.yml"
+      - "docs/releases/**"
   pull_request:
     paths:
       - "logger/**"
       - "Makefile"
       - ".gitignore"
       - ".github/workflows/logger.yml"
+      - ".github/workflows/release-v1.0.0.yml"
+      - "docs/releases/**"
 
 jobs:
   tests:

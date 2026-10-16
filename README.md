@@ -8,6 +8,8 @@ Repositório para pequenos componentes Python portáteis, testáveis e independe
 | --- | --- | --- |
 | **[logger](logger/)** | Logging humano, JSON/JSONL Pretty Print, cores ANSI no terminal, HTML colorido no Jupyter e integração em outras aplicações sem dependências de runtime | **[README do logger](logger/README.md)** |
 
+Leia também a **[versão Markdown colorida do notebook do logger](logger/notebooks/logger_general_exemplos.md)**, com código, saídas copiáveis e prévias SVG.
+
 ## Executar pela raiz do repositório
 
 É necessário Python 3.10+ e GNU Make. O logger usa somente a biblioteca padrão em runtime.

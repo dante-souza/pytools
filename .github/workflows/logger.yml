@@ -1,0 +1,37 @@
+name: Logger module — offline validation
+
+on:
+  push:
+    branches: [dev, main, feature/logger-general]
+    paths:
+      - "logger/**"
+      - "Makefile"
+      - ".gitignore"
+      - ".github/workflows/logger.yml"
+  pull_request:
+    paths:
+      - "logger/**"
+      - "Makefile"
+      - ".gitignore"
+      - ".github/workflows/logger.yml"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Unit tests via root Makefile
+        run: make test
+      - name: Runtime smoke and unit tests via root Makefile
+        run: make check
+      - name: JSONL Pretty Print without ANSI
+        run: make logger-pretty FILE=examples/events.jsonl COLOR=never > /tmp/logger-pretty.json.txt
+      - name: Import-independent module doctor
+        run: make logger-doctor

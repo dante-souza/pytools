@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logger-general-portable"
+version = "1.0.0"
+description = "Single-file stdlib logger, JSON/JSONL ANSI viewer and Jupyter HTML syntax highlighter"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+notebook = ["notebook>=7", "ipykernel>=6"]
+
+[tool.setuptools]
+py-modules = ["logger_general"]

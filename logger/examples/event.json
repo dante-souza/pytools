@@ -1,0 +1,9 @@
+{
+  "service": "api-gateway",
+  "name": "JSON tradicional (não JSONL)",
+  "status": "success",
+  "records": [
+    {"id": 101, "duration_ms": 4.75, "valid": true},
+    {"id": 102, "duration_ms": null, "valid": false}
+  ]
+}

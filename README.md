@@ -25,6 +25,13 @@ make logger-notebook
 
 Também é possível executar os alvos diretamente no diretório `logger/`, onde há outro Makefile com a interface completa.
 
+## Legado e histórico
+
+O logger original que serviu de ponto de partida está preservado sem alterações
+em **[legacy/logger.py](legacy/logger.py)**. Confira a
+[documentação da pasta legacy](legacy/README.md), incluindo o checksum do arquivo
+original e a observação sobre a demonstração intencionalmente falha.
+
 ## Portabilidade
 
 Para incorporar apenas o motor de logging/coloração a outra aplicação, copie [`logger/logger_general.py`](logger/logger_general.py) e importe as funções/classes desejadas. Não é necessário instalar este repositório inteiro. Consulte a [documentação de integração e códigos ANSI](logger/README.md) e a [arquitetura](logger/docs/ARQUITETURA.md).

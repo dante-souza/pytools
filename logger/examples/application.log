@@ -1,0 +1,3 @@
+2026-10-16 12:00:00 | INFO     | Sample application initialized
+2026-10-16 12:00:01 | WARNING  | Permission denied (example)
+2026-10-16 12:00:02 | ERROR    | Simulated failure

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="147" viewBox="0 0 640 147" role="img" aria-label="Saída colorida do logger"><title>Saída da célula 20</title><rect x="0.5" y="0.5" width="639" height="146" rx="10" fill="#0f172a" stroke="#475569"/><g font-family="Consolas,Menlo,DejaVu Sans Mono,monospace" font-size="13"><text x="23" y="37" xml:space="preserve"><tspan fill="#e2e8f0">{</tspan></text>
+<text x="23" y="58" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;status&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fca5a5">&quot;failed&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="79" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;message&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fde68a">&quot;&lt;script&gt;alert(\&quot;não executar\&quot;)&lt;/script&gt;&quot;</tspan><tspan fill="#e2e8f0">,</tspan></text>
+<text x="23" y="100" xml:space="preserve"><tspan fill="#e2e8f0">  </tspan><tspan fill="#93c5fd">&quot;tags&quot;</tspan><tspan fill="#e2e8f0">: </tspan><tspan fill="#fde68a">&quot;&lt;b&gt;texto de usuário&lt;/b&gt;&quot;</tspan></text>
+<text x="23" y="121" xml:space="preserve"><tspan fill="#e2e8f0">}</tspan></text></g></svg>

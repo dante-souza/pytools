@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="315" viewBox="0 0 640 315" role="img" aria-label="Saída colorida do logger"><title>Saída da célula 18</title><rect x="0.5" y="0.5" width="639" height="314" rx="10" fill="#0f172a" stroke="#475569"/><g font-family="Consolas,Menlo,DejaVu Sans Mono,monospace" font-size="13"><text x="23" y="37" xml:space="preserve"><tspan fill="#e2e8f0">Saída de terminal/stream ANSI:</tspan></text>
+<text x="23" y="58" xml:space="preserve"><tspan fill="#86efac">2026-10-16 14:03:17 | INFO     | Aplicação iniciou</tspan></text>
+<text x="23" y="79" xml:space="preserve"><tspan fill="#93c5fd">2026-10-16 14:03:17 | DEBUG    | Verificando dados fictícios</tspan></text>
+<text x="23" y="100" xml:space="preserve"><tspan fill="#facc15">2026-10-16 14:03:17 | WARNING  | Evento negado (exemplo)</tspan></text>
+<text x="23" y="121" xml:space="preserve"><tspan fill="#fca5a5">2026-10-16 14:03:17 | ERROR    | Falha simulada</tspan></text>
+<text x="23" y="142" xml:space="preserve"></text>
+<text x="23" y="163" xml:space="preserve"><tspan fill="#e2e8f0">Arquivo sem ANSI:</tspan></text>
+<text x="23" y="184" xml:space="preserve"><tspan fill="#e2e8f0">2026-10-16 14:03:17 | INFO     | Aplicação iniciou</tspan></text>
+<text x="23" y="205" xml:space="preserve"><tspan fill="#e2e8f0">2026-10-16 14:03:17 | DEBUG    | Verificando dados fictícios</tspan></text>
+<text x="23" y="226" xml:space="preserve"><tspan fill="#e2e8f0">2026-10-16 14:03:17 | WARNING  | Evento negado (exemplo)</tspan></text>
+<text x="23" y="247" xml:space="preserve"><tspan fill="#e2e8f0">2026-10-16 14:03:17 | ERROR    | Falha simulada</tspan></text>
+<text x="23" y="268" xml:space="preserve"></text>
+<text x="23" y="289" xml:space="preserve"><tspan fill="#e2e8f0">PASS: arquivos não armazenam sequências de cor</tspan></text></g></svg>
